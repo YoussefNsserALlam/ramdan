@@ -1,1 +1,58 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Cairo:wght@200..1000&family=Protest+Riot&family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-image: url(./bac.png);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .all{
+        width: 80%;
+        height: 300px;
+        background-color: #ffffff80;
+        border-radius: 7px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: system-ui;
+        animation: infinite linear identifier .5s;
+    }
+    .all p {
+  font-family: inherit;
+  font-weight: bold;
+  text-shadow: 1px 0px 20px #f1ca71;
+  font-style: normal;
+  letter-spacing: 4px;
+  color: white;
+} @keyframes identifier {
+    0%{
+        box-shadow: inset 0px 0px 20px 0px #f7da9b;
+    }
+    100%{
+        box-shadow: inset 0px 0px 10px 0px #f7da9b;
+    }
+}
+</style>
+<body>
+    <audio src="./vid.mp4" autoplay></audio>
+    <div class="all">
+        <p>كل عام وانتا بألف خير</p>
+        <p>يوسف علام</p>
+        <p>يوسف العسيلي</p>
+        <p>W-2-code</p>
+    </div>
+</body>
+</html>
